@@ -1,8 +1,8 @@
-# axiosNinja
+# axios-ninja
 
 ## 介绍
 
-axiosNinja 包装了 axios 的拦截器,获得了更灵活的拦截器使用方式
+axios-ninja 包装了 axios 的拦截器,获得了更灵活的拦截器使用方式
 
 ## 特性
 
