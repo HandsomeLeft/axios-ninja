@@ -5,7 +5,7 @@
     "prettier": "^2.8.4",
     "tern": "^0.24.3"
   },
-  "name": "axiosninja",
+  "name": "axios-ninja",
   "description": "让axios拦截器更近一步",
   "version": "1.0.0",
   "main": "service/core/index.ts",
