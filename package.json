@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "axios": "^1.3.2",
+    "element-plus": "^2.2.30",
+    "prettier": "^2.8.4",
+    "tern": "^0.24.3"
+  },
+  "name": "axiosninja",
+  "description": "让axios拦截器更近一步",
+  "version": "1.0.0",
+  "main": "service/core/index.ts",
+  "keywords": [
+    "veaser",
+    "axios",
+    "element-ui"
+  ],
+  "files": [
+    "service"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HandsomeLeft/axiosNinja.git"
+  },
+  "author": "ceaser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HandsomeLeft/axiosNinja/issues"
+  },
+  "homepage": "https://github.com/HandsomeLeft/axiosNinja#readme"
+}
