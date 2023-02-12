@@ -2,7 +2,7 @@
 
 ## 介绍
 
-axiosNinja 包装了 axios 的拦截器，让拦截器更进一步
+axiosNinja 包装了 axios 的拦截器,获得了更灵活的拦截器使用方式
 
 ## 特性
 
@@ -19,7 +19,7 @@ npm i axios-ninja
 
 ```
 
-### 2.引用组件库
+### 2.引用
 
 ```typescript
 import axiosNinja from 'axios-ninja'
