@@ -1,6 +1,6 @@
 import axios from 'axios'
 import type { AxiosInstance } from 'axios'
-import type { axiosNinjaInterceptors, axiosNinjaConfig } from './type'
+import type { axiosNinjaInterceptors, axiosNinjaConfig } from './type.umd'
 
 import { ElLoading } from 'element-plus'
 import { LoadingInstance } from 'element-plus/es/components/loading/src/loading'
