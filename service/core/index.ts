@@ -1,13 +1,13 @@
 import axios from 'axios'
 import type { AxiosInstance } from 'axios'
-import type { axiosNinjaInterceptors, axiosNinjaConfig } from './type.umd'
+import type { axiosNinjaInterceptors, axiosNinjaConfig } from './type'
 
 import { ElLoading } from 'element-plus'
 import { LoadingInstance } from 'element-plus/es/components/loading/src/loading'
 
 const DEAFULT_LOADING = true
 
-class axiosNinja {
+class AxiosNinja {
   instance: AxiosInstance
   interceptors?: axiosNinjaInterceptors
   showLoading: boolean
@@ -106,4 +106,4 @@ class axiosNinja {
   }
 }
 
-export default axiosNinja
+export default AxiosNinja

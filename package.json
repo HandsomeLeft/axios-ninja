@@ -7,8 +7,8 @@
   },
   "name": "axios-ninja",
   "description": "让axios拦截器更近一步",
-  "version": "1.0.2",
-  "main": "service/core/index.umd.ts",
+  "version": "1.0.3",
+  "main": "service/core/index.ts",
   "keywords": [
     "veaser",
     "axios",
