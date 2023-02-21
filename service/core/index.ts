@@ -1,13 +1,13 @@
 import axios from 'axios'
-import type { AxiosInstance } from 'axios'
-import type { axiosNinjaInterceptors, axiosNinjaConfig } from './type'
+import { AxiosInstance } from 'axios'
+import { axiosNinjaInterceptors, axiosNinjaConfig } from './type'
 
-import { ElLoading } from 'element-plus'
 import { LoadingInstance } from 'element-plus/es/components/loading/src/loading'
+import { ElLoading } from 'element-plus'
 
 const DEAFULT_LOADING = true
 
-class AxiosNinja {
+export default class AxiosNinja {
   instance: AxiosInstance
   interceptors?: axiosNinjaInterceptors
   showLoading: boolean
@@ -105,5 +105,3 @@ class AxiosNinja {
     return this.request<T>({ ...config, method: 'PATCH' })
   }
 }
-
-export default AxiosNinja

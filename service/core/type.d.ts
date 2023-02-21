@@ -1,4 +1,12 @@
-// Type definitions for .\type.js
-// Project: [LIBRARY_URL_HERE] 
-// Definitions by: [YOUR_NAME_HERE] <[YOUR_URL_HERE]> 
-// Definitions: https://github.com/borisyankov/DefinitelyTyped
+import type { AxiosRequestConfig, AxiosResponse } from 'axios'
+export interface axiosNinjaInterceptors<T = AxiosResponse> {
+  requestInterceptor?: (config: any) => any
+  requestInterceptorCatch?: (error: any) => any
+  responseInterceptor?: (res: T) => T
+  responseInterceptorCatch?: (error: any) => any
+}
+export interface axiosNinjaConfig<T = AxiosResponse>
+  extends AxiosRequestConfig {
+  interceptors?: axiosNinjaInterceptors<T>
+  showLoading?: boolean
+}
